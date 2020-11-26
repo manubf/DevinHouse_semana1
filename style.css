@@ -1,0 +1,66 @@
+* {
+    background-color: #FFD700;
+}
+
+#menu {
+    float: right;
+    display: flex;
+    top: 10px;
+    position: sticky;
+    width: 100%;
+}
+
+
+#menu img{
+    max-width: 20%;
+    padding: 20px 20px 20px 85%;
+    margin: 0%;
+    float: left;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+#menu ul{
+    float: right;
+	list-style: none; 
+}
+
+h1 {
+    clear: both;
+    color:brown;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    background-size: cover;
+    background-image: url("soldadinhos.jpg");
+    background-position: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+#video {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid red ;
+}
+
+#buttoncrazy {
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#pedepagina {
+    background-color: red;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 0px 0px 10px;
+}
